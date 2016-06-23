@@ -2,10 +2,32 @@
 
 	<apex:includeScript value="{!$Resource.jQuery}"/>
 
+	<ul id="t">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<br />
+	<button>
+		Click
+	</button>
+
 	<script>
 		var r$ = jQuery.noConflict();
 
+		var counter = 1;
+
 		r$(document).ready(function(){
+
+			r$('button').bind('click', function(){
+				r$.each(r$('#t li'), function(i, v){
+					r$(v).text(counter);
+					counter++;
+				})
+			});
 
 		});
 	</script>

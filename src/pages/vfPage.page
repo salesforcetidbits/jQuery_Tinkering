@@ -2,12 +2,14 @@
 	<apex:includeScript value="{!$Resource.jQuery}"/>
 
 	<script>
-	var $r = jQuery.noconflict();
+ s
+ t
+	var r$ = jQuery.noConflict();
 
 	r$(document).ready(function(){
 
-		alert('');
 	});
+
 	</script>
 
 </apex:page>

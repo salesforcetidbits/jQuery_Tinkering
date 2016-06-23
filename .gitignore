@@ -45,3 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+config/.debug
+*.describe
+config/.lightning
+*.session
+config/.local_store
+config/.settings
+jQuery_Tinkering.sublime-project
+jQuery_Tinkering.sublime-workspace
+config/.org_metadata

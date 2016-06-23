@@ -1,14 +1,13 @@
 <apex:page showHeader="true" sidebar="true">
+
 	<apex:includeScript value="{!$Resource.jQuery}"/>
 
 	<script>
+		var r$ = jQuery.noConflict();
 
-	var r$ = jQuery.noConflict();
+		r$(document).ready(function(){
 
-	r$(document).ready(function(){
-
-	});
-
+		});
 	</script>
 
 </apex:page>

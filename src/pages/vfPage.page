@@ -2,8 +2,7 @@
 	<apex:includeScript value="{!$Resource.jQuery}"/>
 
 	<script>
- s
- t
+
 	var r$ = jQuery.noConflict();
 
 	r$(document).ready(function(){
